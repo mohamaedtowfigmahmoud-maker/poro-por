@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="CSS/header.css">
+<link rel="stylesheet"href="CSS/portfolio.css">
+ <link rel="stylesheet "href="CSS/footer.css">
+<link rel="stylesheet"href="https:///cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+</head>
+
+<body>
+
+ <header>
+        <img class="menu" src="img/menu.png" alt="">
+    <div class="header">
+        
+              <img src="img/logo.png " alt="logo">
+        <ul>
+    <li> <a href="index.html">Home</a></li>
+    <li> <a href="about.html">About</a></li>
+    <li> <a href="services.html">Services</a></li>
+    <li> <a href="portfolio.html">Portfolio</a></li>
+    <li> <a href="contact.html">contact</a></li>
+    </ul>
+  
+   </div>
+   </header>
+
+
+<!-- TITLE -->
+<div class="heading">
+    <h2>Latest <span>Projects</span></h2>
+</div>
+
+
+<!-- PROJECTS -->
+<div class="portfolio-container">
+
+    <div class="portfolio-box">
+        <h3>Technical Support System</h3>
+        <p>Real-time support & maintenance system for clients.</p>
+
+        <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <h3>Business Website</h3>
+        <p>Modern responsive company landing page.</p>
+
+        <div class="tags">
+            <span class="tag">UI</span>
+            <span class="tag">Design</span>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <h3>E-Commerce UI</h3>
+        <p>Online store UI design with modern layout.</p>
+
+        <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">UI/UX</span>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <h3>Dashboard System</h3>
+        <p>Admin dashboard with analytics and charts.</p>
+
+        <div class="tags">
+            <span class="tag">Admin</span>
+            <span class="tag">Charts</span>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>Mohamed Towfig</h2>
+            <p>Front-End Developer creating modern and responsive websites.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Me</h3>
+            <div class="social-icons">
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mohamaed-towfig-2a553a404/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Mohamed Towfig | All Rights Reserved</p>
+    </div>
+
+</footer>
+
+
+<script>
+
+    const menuicon =
+    document.querySelector('.menu');
+    const navlist = 
+    document.querySelector('.header ul');
+
+    menuicon.addEventListener('click',
+        () => {
+            navlist.classList.toggle('active');
+        });
+    
+
+</script>
+</body>
+</html>

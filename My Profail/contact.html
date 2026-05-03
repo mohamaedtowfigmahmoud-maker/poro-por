@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me</title>
+<link rel="stylesheet" href="CSS/header.css">
+<link rel="stylesheet "href="CSS/contact.css">
+ <link rel="stylesheet "href="CSS/footer.css">
+    <link rel="stylesheet"href="https:///cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+
+<body>
+
+  <header>
+        <img class="menu" src="img/menu.png" alt="">
+    <div class="header">
+        
+              <img src="img/logo.png " alt="logo">
+        <ul>
+    <li> <a href="index.html">Home</a></li>
+    <li> <a href="about.html">About</a></li>
+    <li> <a href="services.html">Services</a></li>
+    <li> <a href="portfolio.html">Portfolio</a></li>
+    <li> <a href="contact.html">contact</a></li>
+    </ul>
+  
+   </div>
+   </header>
+
+
+<!-- TITLE -->
+<div class="heading">
+    <h2>Contact <span>Me</span></h2>
+</div>
+
+
+<!-- CONTACT -->
+<div class="contact-container">
+
+    <!-- INFO -->
+    <div class="contact-info">
+
+        <div class="info-box">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+                <h4>Phone</h4>
+                <p>+249964629236</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+                <h4>Email</h4>
+                <p>Mohamaedtowfigmahmoud@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+                <h4>Location</h4>
+                <p>Sudan Arabia</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- FORM -->
+    <div class="contact-form">
+
+        <h3>Send Message</h3>
+
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="text" placeholder="Subject">
+
+        <textarea rows="5" placeholder="Your Message"></textarea>
+
+        <button>Send Message</button>
+
+    </div>
+
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>Mohamed Towfig</h2>
+            <p>Front-End Developer creating modern and responsive websites.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Me</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mohamaed-towfig-2a553a404/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Mohamed Towfig | All Rights Reserved</p>
+    </div>
+
+</footer>
+<script>
+
+    const menuicon =
+    document.querySelector('.menu');
+    const navlist = 
+    document.querySelector('.header ul');
+
+    menuicon.addEventListener('click',
+        () => {
+            navlist.classList.toggle('active');
+        });
+    
+
+</script>
+</body>
+</html>

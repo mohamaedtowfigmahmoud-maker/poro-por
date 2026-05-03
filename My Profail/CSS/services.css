@@ -1,0 +1,163 @@
+
+/* RESET */
+*{ 
+padding: 0;
+margin : 0;
+box-sizing: border-box;
+font-family: sans-serif;
+text-decoration: none;
+}
+
+body{
+    background:#080e1c;;
+    color:white;
+}
+
+/* NAV */
+nav{
+    width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100px;
+}
+
+#logo img{
+    width:70px;
+}
+
+.nav-links a{
+   color:white;
+  color: var(--Textwhite);
+ margin: 0 30px;
+transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color:#00abf0;
+}
+ .btn-mode{
+color: var(--Textwhite);
+font-size: 25px;
+cursor: pointer;
+}
+
+/* HERO */
+.hero{
+    min-height:100vh;
+}
+
+/* TITLE */
+.main-title{
+    text-align:center;
+    margin:50px 0 20px;
+}
+
+.main-title h2{
+    font-size:45px;
+}
+
+.main-title span{
+    color:#00abf0;
+}
+
+/* SEARCH */
+.search-box{
+    display:flex;
+    justify-content:center;
+    margin-bottom:50px;
+}
+
+.input-search{
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:25px;
+    padding:10px;
+    background:#112240;
+    color:white;
+    transition:0.4s;
+}
+
+.search-box:hover .input-search{
+    width:300px;
+}
+
+/* CARDS */
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:0 10%;
+}
+
+.card{
+    background:#112240;
+    padding:30px;
+    width:250px;
+    border-radius:20px;
+    text-align:center;
+    transition:0.4s;
+    border:1px solid #233554;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 30px rgba(0,171,240,0.3);
+}
+
+.icon{
+    font-size:40px;
+    color:#00abf0;
+    margin-bottom:15px;
+}
+
+/* FEATURES */
+.features-title{
+    text-align:center;
+    margin:80px 0 30px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:0 10%;
+    margin-bottom:80px;
+}
+
+.feature{
+    background:#1f2937;
+    padding:20px;
+    border-radius:15px;
+    width:250px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.feature:hover{
+    transform:scale(1.05);
+    background:#00abf0;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .nav-links{
+        display:none;
+    }
+
+    .input-search:hover{
+        width:200px;
+    }
+}
+
+
+/* Mobile */
+@media(max-width:768px){
+    .footer{
+        text-align:center;
+    }
+}
